@@ -33,10 +33,20 @@ body {
    
 
 }
-#content1 h1 {
+
+
+.myName {
     background-color: aquamarine;
     text-align: center;
     position: fixed;
+    top: 200px;
+    right: 40px;
+    z-index: 1;
+    
+    
+    
+
+    
 }
 
 
@@ -69,7 +79,7 @@ border-bottom:dotted 1px #1652B4;
 {
 height:60px;
     position:fixed;
-    background-color: transparent;
+    
     
 }
 
