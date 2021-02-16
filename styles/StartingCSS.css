@@ -27,8 +27,16 @@ body {
   padding-left:17px;
   padding-right:17px;
   overflow:hidden;
+    background: white;
+    
+    
    
 
+}
+#content1 h1 {
+    background-color: aquamarine;
+    text-align: center;
+    position: fixed;
 }
 
 
@@ -38,6 +46,8 @@ display:block;
 float:right;	
 margin-top:25px;
 margin-right:10px;
+    background-color: white;
+   
 }
 
 #links a, #links a:visited
@@ -58,7 +68,9 @@ border-bottom:dotted 1px #1652B4;
 #header
 {
 height:60px;
-
+    position:fixed;
+    background-color: transparent;
+    
 }
 
 #header h1
@@ -73,6 +85,8 @@ float:left;
 .off
 {
 color:#1652B4;
+    background-color: white;
+    
 }
 
 .picture
