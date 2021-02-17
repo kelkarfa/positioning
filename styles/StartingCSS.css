@@ -4,7 +4,7 @@ body {
 	padding: 0;
 	text-align: left;
 	font: Arial, Helvetica, sans-serif;
-	font-size: 13px;
+	font-size: 105%;
 	color: #000000;
 	background: #1364A6;
 	background-image:url(images/background.png);
@@ -12,7 +12,8 @@ body {
 }
 *
 {
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
+    
  text-align:left;
 }
 
@@ -106,6 +107,18 @@ color:#1652B4;
 	background-position:bottom;
 	padding-bottom:8px;
 	margin-top:22px;
+}
+
+
+.picture1, .picture2, .picture3, .picture4 {
+    position: fixed;
+    opacity: 0.65;
+    
+}
+.pic {
+    border-radius: 60px 60px 60px 60px;
+    border: 3px solid blue;
+    box-shadow: 1px 1px 4px 4px red;
 }
 
 
