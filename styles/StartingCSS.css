@@ -1,21 +1,24 @@
+* {
+    margin: 0 auto 0 auto;
+    text-align:left;
+}
+
+
+/* styles for the body*/
 
 body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
 	font: Arial, Helvetica, sans-serif;
-	font-size: 90%;
+	font-size: 13px;
 	color: #000000;
 	background: #1364A6;
-	background-image:url(images/background.png);
+	background-image:url("../images/background.jpg");
 	background-repeat:repeat-x;
 }
-*
-{
-  margin: 0 auto 0 auto;
-    
- text-align:left;
-}
+
+
 
 #container
 {
@@ -23,34 +26,14 @@ body {
   height:auto;
   position: relative; 
   width: 750px;
-  background-image:url(images/background.jpg);
+  background-image:url("../images/background.jpg");
   background-repeat:repeat-y;
   padding-left:17px;
   padding-right:17px;
   overflow:hidden;
     background: white;
     
-    
-   
-
 }
-
-
-.myName {
-    background-color: aquamarine;
-    
-    position: fixed;
-    top: 100px;
-    right: 20px;
-    z-index: 1;
-    color: brown;
-    
-    
-    
-
-    
-}
-
 
 #links
 {
@@ -82,8 +65,6 @@ border-bottom:dotted 1px #1652B4;
 {
 height:60px;
     
-    
-    
 }
 
 #header h1
@@ -95,6 +76,18 @@ color:#0A2645;
 float:left;
 }
 
+.picture {
+	background-image:url(images/imagebackground.jpg);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding-bottom:5px;
+	margin-top:22px;
+}
+
+
+
+/* styles for the NAVBAR sticky position*/
+
 .off
 {
 color:#1652B4;
@@ -104,39 +97,56 @@ color:#1652B4;
     
 }
 
-.picture
-{
-	background-image:url(images/imagebackground.jpg);
-	background-repeat:repeat-x;
-	background-position:bottom;
-	padding-bottom:5px;
-	margin-top:15px;
-}
+
+
+/* styles for the pictures position properties */
 
 
 .picture1, .picture2, .picture3, .picture4 {
     position: fixed;
-    
+    opacity: 0.65;
     border: 3px solid brown;
     
 }
-.poly {
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-}
+ 
 .pic {
     border-radius: 60px 60px 60px 60px;
     border: 3px solid blue;
     box-shadow: 1px 1px 4px 4px red;
-}
-.circle {
-    clip-path: circle(350px at 50% 50%);
-}
-
-.ellipse {
-    clip-path:ellipse(350px);
+    z-index: 1;
+}   
+    
+.poly {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     z-index: 1;
 }
 
+.circle {
+    clip-path: circle(350px at 50% 50%);
+    z-index: 1;
+}
+
+.ellipse {
+    clip-path:ellipse(350px at 50% 50%);
+    z-index: 1;
+}
+
+/* styles for the page creation with FULL NAME */
+
+.myName {
+    background-color: aquamarine;
+    position: fixed;
+    top: 50%;
+    right: 47%;
+    left: auto;
+    bottom: auto;
+    z-index: 1;
+    color: brown;
+}
+
+
+
+/* other styles */
 .contenttext h2
 {
 color:#123F83;
