@@ -99,7 +99,7 @@ color:#1652B4;
 
 
 
-/* styles for the pictures position properties */
+/* STYLES FOR POSITION PROPERTIES */
 
 
 .picture1, .picture2, .picture3, .picture4 {
@@ -107,12 +107,16 @@ color:#1652B4;
     opacity: 0.65;
     border: 3px solid brown;
     
+    
+    
 }
  
 .pic {
+    width: auto;
+    height: 150px;
     border-radius: 60px 60px 60px 60px;
-    border: 3px solid blue;
-    box-shadow: 1px 1px 4px 4px red;
+    border: 2px solid blue;
+    box-shadow: 1px 1px 3px 3px red;
     z-index: 1;
 }   
     
@@ -122,13 +126,18 @@ color:#1652B4;
 }
 
 .circle {
-    clip-path: circle(350px at 50% 50%);
+    clip-path: circle(250px at 50% 50%);
     z-index: 1;
+    
+    
+    
 }
 
 .ellipse {
-    clip-path:ellipse(350px at 50% 50%);
+    clip-path:ellipse(50% 40% at 50% 50%);
     z-index: 1;
+    
+    
 }
 
 /* styles for the page creation with FULL NAME */
