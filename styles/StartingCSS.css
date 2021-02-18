@@ -4,7 +4,7 @@ body {
 	padding: 0;
 	text-align: left;
 	font: Arial, Helvetica, sans-serif;
-	font-size: 105%;
+	font-size: 90%;
 	color: #000000;
 	background: #1364A6;
 	background-image:url(images/background.png);
@@ -12,7 +12,7 @@ body {
 }
 *
 {
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
     
  text-align:left;
 }
@@ -38,11 +38,12 @@ body {
 
 .myName {
     background-color: aquamarine;
-    text-align: center;
+    
     position: fixed;
     top: 100px;
-    right: 40px;
+    right: 20px;
     z-index: 1;
+    color: brown;
     
     
     
@@ -58,6 +59,7 @@ float:right;
 margin-top:25px;
 margin-right:10px;
     background-color: white;
+    
    
 }
 
@@ -79,7 +81,7 @@ border-bottom:dotted 1px #1652B4;
 #header
 {
 height:60px;
-    position:fixed;
+    
     
     
 }
@@ -96,7 +98,9 @@ float:left;
 .off
 {
 color:#1652B4;
-    background-color: white;
+    position: fixed;
+    background-color: aqua;
+    
     
 }
 
@@ -105,22 +109,33 @@ color:#1652B4;
 	background-image:url(images/imagebackground.jpg);
 	background-repeat:repeat-x;
 	background-position:bottom;
-	padding-bottom:8px;
-	margin-top:22px;
+	padding-bottom:5px;
+	margin-top:15px;
 }
 
 
 .picture1, .picture2, .picture3, .picture4 {
     position: fixed;
-    opacity: 0.65;
     
+    border: 3px solid brown;
+    
+}
+.poly {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 .pic {
     border-radius: 60px 60px 60px 60px;
     border: 3px solid blue;
     box-shadow: 1px 1px 4px 4px red;
 }
+.circle {
+    clip-path: circle(350px at 50% 50%);
+}
 
+.ellipse {
+    clip-path:ellipse(350px);
+    z-index: 1;
+}
 
 .contenttext h2
 {
