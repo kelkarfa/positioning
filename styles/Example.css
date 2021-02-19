@@ -79,7 +79,7 @@ body, html {
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   clip-path: circle(350px at 50% 50%);
   background-attachment: fixed;
-  background-image: url("file:///C|/Users/aliae/Desktop/positioning/images/image3.jpg");
+  background-image: url("../images/image3.jpg");
 }
 .keepfixedimagehere2 {
 
@@ -92,7 +92,7 @@ body, html {
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   border-radius: 100px;
   background-attachment: fixed;
-  background-image: url("file:///C|/Users/aliae/Desktop/positioning/images/image2.jpg");
+  background-image: url("../images/image2.jpg");
  
 }
 
